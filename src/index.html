@@ -3,10 +3,22 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/bulma">
+
+    <script defer src="render.js"></script>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <h1>Electron Screen Recorder</h1>
+
+    <video></video>
+
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+
+    <hr />
+
+    <button id="videoSelectBtn" class="button is-text">Choose a video source</button>
   </body>
 </html>
